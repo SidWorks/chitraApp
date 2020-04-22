@@ -1,12 +1,12 @@
 import React from "react";
+import SearchBar from "./searchbar";
 
 class App extends React.Component {
   state = {};
   render() {
     return (
-      <div>
-        <h1>Helloo There !</h1>
-        <h3>We are starting the project now!</h3>
+      <div className="ui container" style={{ marginTop: "10px" }}>
+        <SearchBar />
       </div>
     );
   }

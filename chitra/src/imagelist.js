@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
 
 class imageList extends Component {
-    state = {  }
-    render() { 
-        return (  );
-    }
+  state = {};
+  render() {
+    return (
+      <div>
+        <h1>imageList</h1>
+      </div>
+    );
+  }
 }
- 
+
 export default imageList;
