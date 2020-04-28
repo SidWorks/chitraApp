@@ -9,4 +9,13 @@
 .image-list img {
     width: 250px;
     grid-row-end: span 2;
+    border-radius: 5px;
+}
+
+.grow {
+    transition: all .5s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
 }
